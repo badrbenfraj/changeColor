@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fefefe;
+}
+
+.changeBtn{
+    padding: 4px 8px;
+    color: #fefefe;
+    border: 2px solid #fefefe;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.6);
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.changeBtn:hover{
+    background: rgb(0, 0, 0)
+}
